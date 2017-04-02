@@ -16,9 +16,9 @@ while(True):
   escolha = int(input("Digite o número correspondente a ação que voê deseja executar:"))
   
   if(escolha == 1):
-  matricula = eval(input("Digite o numero da sua matricula:"))
-  nome = str(input("Digite o nome do funcionário:"))
-  adicionarFuncionario(matricula,nome)
+    matricula = eval(input("Digite o numero da sua matricula:"))
+    nome = str(input("Digite o nome do funcionário:"))
+    adicionarFuncionario(matricula,nome)
   
   elif(escolha == 2):
     matricula = eval(input("Digite a matricula:"))
@@ -28,4 +28,4 @@ while(True):
     exibirFuncionarios(funcionarios)
       
   else:
-    print("Opção Inválida, TENTE NOVAMENTE!")
+      print("Opção Inválida, TENTE NOVAMENTE!")
